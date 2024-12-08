@@ -80,7 +80,7 @@ export default function Home() {
         {/* Features Section */}
         <ScrollAnimatedSection delay={0.2}>
           <div className="mt-24 text-center mx-auto max-w-4xl" id='features'>
-            <h2 className="text-3xl font-extrabold mb-12 transition-colors duration-500">Why Choose FortuneBlock?</h2>
+            <h2 className="text-3xl font-extrabold mb-12 transition-colors duration-500">Why Choose FortuneUnlock?</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {features.map((feature) => (
                 <motion.div
@@ -130,7 +130,7 @@ export default function Home() {
         {/* Stats Section */}
         <ScrollAnimatedSection delay={0.6}>
           <div className="mt-24 text-center mx-auto max-w-5xl">
-            <h2 className="text-3xl font-extrabold mb-12 transition-colors duration-500">FortuneBlock by the Numbers</h2>
+            <h2 className="text-3xl font-extrabold mb-12 transition-colors duration-500">FortuneUnlock by the Numbers</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
               {stats.map((stat) => (
                 <motion.div 

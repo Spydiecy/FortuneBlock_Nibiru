@@ -47,9 +47,9 @@ const Navbar: React.FC<NavbarProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex-shrink-0 flex items-center gap-4">
-              <Image src={logo} alt="FortuneBlock" width={40} height={40} />
+              <Image src={logo} alt="FortuneUnlock" width={40} height={40} />
               <span className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-cyan-600 dark:from-emerald-400 dark:to-cyan-400 text-transparent bg-clip-text">
-                FortuneBlock
+                FortuneUnlock
               </span>
             </div>
             <div className="flex items-center space-x-4">
